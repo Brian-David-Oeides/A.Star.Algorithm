@@ -478,8 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bbdb95ccc4b4577a62495732a02d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 12
-  depth: 12
+  width: 20
+  depth: 20
   scale: 6
 --- !u!850595691 &1160735724
 LightingSettings:
