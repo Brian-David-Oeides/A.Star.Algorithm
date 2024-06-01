@@ -1,0 +1,14 @@
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Set the model name
+model_name = "gpt2"  # or any other model name
+
+# Download and load the model and tokenizer
+model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+# Save the model locally
+model.save_pretrained("./my_model")
+tokenizer.save_pretrained("./my_model")
+
+
